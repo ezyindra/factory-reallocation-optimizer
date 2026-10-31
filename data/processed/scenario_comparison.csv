@@ -1,0 +1,5 @@
+Scenario,Active Factories,Total Demand,Available Capacity,Spare Capacity,Utilization (%),Feasible
+Baseline,3,38654,42000,3346,92.03,True
+Shutdown - FAC-001,2,38654,26000,-12654,148.67,False
+Capacity Reduction - FAC-002,3,38654,39200,546,98.61,True
+Capacity Expansion - 10%,3,38654,46200,7546,83.67,True
