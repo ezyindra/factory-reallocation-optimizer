@@ -1,16 +1,18 @@
-Product Name,Atlantic,Gulf,Interior,Pacific
-Everlasting Gobstopper,0,4,3,6
-Fizzy Lifting Drinks,9,4,5,3
-Fun Dip,4,1,3,0
-Hair Toffee,5,2,0,10
-Kazookles,149,78,39,105
-Laffy Taffy,14,11,1,1
-Lickable Wallpaper,139,37,71,146
-Nerds,10,0,0,0
-SweeTARTS,24,0,13,4
-Wonka Bar - Fudge Mallows,2008,1082,1595,2229
-Wonka Bar - Milk Chocolate,2336,1356,1869,2706
-Wonka Bar - Nutty Crunch Surprise,1857,1088,1694,2116
-Wonka Bar - Triple Dazzle Caramel,2086,1223,1692,2595
-Wonka Bar -Scrumdiddlyumptious,2349,1203,1723,2468
-Wonka Gum,169,120,112,77
+Country/Region,Canada,Canada,Canada,United States,United States,United States,United States
+Region,Atlantic,Interior,Pacific,Atlantic,Gulf,Interior,Pacific
+Product Name,,,,,,,
+Everlasting Gobstopper,0,0,0,0,4,3,6
+Fizzy Lifting Drinks,0,0,0,9,4,5,3
+Fun Dip,0,0,0,4,1,3,0
+Hair Toffee,0,0,0,5,2,0,10
+Kazookles,0,0,0,149,78,39,105
+Laffy Taffy,0,0,0,14,11,1,1
+Lickable Wallpaper,5,0,9,134,37,71,137
+Nerds,0,0,0,10,0,0,0
+SweeTARTS,0,0,0,24,0,13,4
+Wonka Bar - Fudge Mallows,72,5,45,1936,1082,1590,2184
+Wonka Bar - Milk Chocolate,199,22,47,2137,1356,1847,2659
+Wonka Bar - Nutty Crunch Surprise,63,0,28,1794,1088,1694,2088
+Wonka Bar - Triple Dazzle Caramel,77,13,16,2009,1223,1679,2579
+Wonka Bar -Scrumdiddlyumptious,125,0,55,2224,1203,1723,2413
+Wonka Gum,0,0,0,169,120,112,77

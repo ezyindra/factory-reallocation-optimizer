@@ -69,19 +69,21 @@ def analyze_regional_demand(data: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+
 def create_demand_matrix(data: pd.DataFrame) -> pd.DataFrame:
-    """Show unit demand for each product across destination regions."""
+    """Show product demand separately for each country and region."""
 
     matrix = pd.pivot_table(
         data,
         index="Product Name",
-        columns="Region",
+        columns=["Country/Region", "Region"],
         values="Units",
         aggfunc="sum",
         fill_value=0
     )
 
     return matrix
+
 
 
 def validate_aggregations(
