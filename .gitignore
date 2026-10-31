@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local editor settings
+.vscode/
+
+# Original dataset - contains customer-related records
+data/raw/
+
+# Processed transaction-level data
+data/processed/nassau_candy_clean.csv
+
+# OS files
+.DS_Store
+Thumbs.db
