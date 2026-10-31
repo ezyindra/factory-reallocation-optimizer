@@ -21,6 +21,28 @@ The optimization engine uses **Google OR-Tools CP-SAT** to minimize maximum fact
 - **Interactive Dashboard:** Explores demand, factory performance, allocations, scenarios, and validation results.
 - **Automated Testing:** Uses pytest to verify optimization and validation behavior.
 
+## Dashboard Preview
+
+The application includes an interactive dashboard for exploring factory capacity, demand allocation, optimization scenarios, and operational recommendations.
+
+### 1. Network Overview
+![Network Overview](assets/dashboard/overview.png)
+
+### 2. Factory Analysis
+![Factory Analysis](assets/dashboard/factory-analysis.png)
+
+### 3. Allocation Explorer
+![Allocation Explorer](assets/dashboard/allocation-explorer.png)
+
+### 4. Scenario Analysis
+![Scenario Analysis](assets/dashboard/scenario-analysis.png)
+
+### 5. Recommendations
+![Recommendations](assets/dashboard/recommendations.png)
+
+### 6. Validation
+![Allocation Validation](assets/dashboard/validation.png)
+
 ## Technology Stack
 
 | Component | Technology |
