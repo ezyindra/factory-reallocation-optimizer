@@ -1,0 +1,61 @@
+
+{
+  "scenario_name": "Nassau Candy - Illustrative Factory Network",
+  "version": 1,
+  "data_classification": "SIMULATION_ASSUMPTIONS",
+  "description": "Hypothetical factory profiles created for testing allocation and capacity constraints. These are not actual Nassau Candy operational records.",
+  "capacity_unit": "units",
+  "factories": [
+    {
+      "factory_id": "FAC-001",
+      "name": "Factory North",
+      "capacity_units": 16000,
+      "enabled": true,
+      "supported_products": "all"
+    },
+    {
+      "factory_id": "FAC-002",
+      "name": "Factory Central",
+      "capacity_units": 14000,
+      "enabled": true,
+      "supported_products": "all"
+    },
+    {
+      "factory_id": "FAC-003",
+      "name": "Factory South",
+      "capacity_units": 12000,
+      "enabled": true,
+      "supported_products": "all"
+    }
+  ],
+  "destinations": [
+    {
+      "country": "United States",
+      "region": "Atlantic"
+    },
+    {
+      "country": "United States",
+      "region": "Gulf"
+    },
+    {
+      "country": "United States",
+      "region": "Interior"
+    },
+    {
+      "country": "United States",
+      "region": "Pacific"
+    },
+    {
+      "country": "Canada",
+      "region": "Atlantic"
+    },
+    {
+      "country": "Canada",
+      "region": "Interior"
+    },
+    {
+      "country": "Canada",
+      "region": "Pacific"
+    }
+  ]
+}
