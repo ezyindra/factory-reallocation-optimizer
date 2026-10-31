@@ -1,0 +1,4 @@
+Factory ID,Factory Name,Enabled,Capacity,Allocated Units,Spare Capacity,Within Capacity
+FAC-001,Factory North,True,16000,14726,1274,True
+FAC-002,Factory Central,True,14000,12884,1116,True
+FAC-003,Factory South,True,12000,11044,956,True

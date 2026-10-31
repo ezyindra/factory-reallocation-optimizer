@@ -1,0 +1,69 @@
+Product ID,Product Name,Country/Region,Region,Expected Units,Allocated Units,Difference
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Atlantic,72,72,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Interior,5,5,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Pacific,45,45,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Atlantic,1936,1936,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Gulf,1082,1082,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Interior,1590,1590,0
+CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Pacific,2184,2184,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Atlantic,199,199,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Interior,22,22,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Pacific,47,47,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Atlantic,2137,2137,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Gulf,1356,1356,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Interior,1847,1847,0
+CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Pacific,2659,2659,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,Canada,Atlantic,63,63,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,Canada,Pacific,28,28,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Atlantic,1794,1794,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Gulf,1088,1088,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Interior,1694,1694,0
+CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Pacific,2088,2088,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,Canada,Atlantic,125,125,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,Canada,Pacific,55,55,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Atlantic,2224,2224,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Gulf,1203,1203,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Interior,1723,1723,0
+CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Pacific,2413,2413,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Atlantic,77,77,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Interior,13,13,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Pacific,16,16,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Atlantic,2009,2009,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Gulf,1223,1223,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Interior,1679,1679,0
+CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Pacific,2579,2579,0
+OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Atlantic,9,9,0
+OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Gulf,4,4,0
+OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Interior,5,5,0
+OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Pacific,3,3,0
+OTH-GUM-21000,Wonka Gum,United States,Atlantic,169,169,0
+OTH-GUM-21000,Wonka Gum,United States,Gulf,120,120,0
+OTH-GUM-21000,Wonka Gum,United States,Interior,112,112,0
+OTH-GUM-21000,Wonka Gum,United States,Pacific,77,77,0
+OTH-KAZ-38000,Kazookles,United States,Atlantic,149,149,0
+OTH-KAZ-38000,Kazookles,United States,Gulf,78,78,0
+OTH-KAZ-38000,Kazookles,United States,Interior,39,39,0
+OTH-KAZ-38000,Kazookles,United States,Pacific,105,105,0
+OTH-LIC-15000,Lickable Wallpaper,Canada,Atlantic,5,5,0
+OTH-LIC-15000,Lickable Wallpaper,Canada,Pacific,9,9,0
+OTH-LIC-15000,Lickable Wallpaper,United States,Atlantic,134,134,0
+OTH-LIC-15000,Lickable Wallpaper,United States,Gulf,37,37,0
+OTH-LIC-15000,Lickable Wallpaper,United States,Interior,71,71,0
+OTH-LIC-15000,Lickable Wallpaper,United States,Pacific,137,137,0
+SUG-EVE-47000,Everlasting Gobstopper,United States,Gulf,4,4,0
+SUG-EVE-47000,Everlasting Gobstopper,United States,Interior,3,3,0
+SUG-EVE-47000,Everlasting Gobstopper,United States,Pacific,6,6,0
+SUG-FUN-75000,Fun Dip,United States,Atlantic,4,4,0
+SUG-FUN-75000,Fun Dip,United States,Gulf,1,1,0
+SUG-FUN-75000,Fun Dip,United States,Interior,3,3,0
+SUG-HAI-55000,Hair Toffee,United States,Atlantic,5,5,0
+SUG-HAI-55000,Hair Toffee,United States,Gulf,2,2,0
+SUG-HAI-55000,Hair Toffee,United States,Pacific,10,10,0
+SUG-LAF-25000,Laffy Taffy,United States,Atlantic,14,14,0
+SUG-LAF-25000,Laffy Taffy,United States,Gulf,11,11,0
+SUG-LAF-25000,Laffy Taffy,United States,Interior,1,1,0
+SUG-LAF-25000,Laffy Taffy,United States,Pacific,1,1,0
+SUG-NER-92000,Nerds,United States,Atlantic,10,10,0
+SUG-SWE-91000,SweeTARTS,United States,Atlantic,24,24,0
+SUG-SWE-91000,SweeTARTS,United States,Interior,13,13,0
+SUG-SWE-91000,SweeTARTS,United States,Pacific,4,4,0

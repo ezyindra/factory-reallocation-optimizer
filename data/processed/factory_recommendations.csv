@@ -1,0 +1,6 @@
+Category,Priority,Observation,Recommendation
+Network Capacity,Normal,"The network has 3,346 spare units with 92.03% utilization.",Retain the available capacity as a buffer for potential demand increases.
+Factory Utilization,Medium,Factory North has relatively high utilization of 92.04%.,"Retain its current allocation and monitor the remaining 1,274 units of capacity."
+Factory Utilization,Medium,Factory Central has relatively high utilization of 92.03%.,"Retain its current allocation and monitor the remaining 1,116 units of capacity."
+Factory Utilization,Medium,Factory South has relatively high utilization of 92.03%.,Retain its current allocation and monitor the remaining 956 units of capacity.
+Allocation Balance,Normal,Factory utilization differs by only 0.01 percentage points.,The current allocation is well balanced. Retain this distribution unless operational conditions change.
