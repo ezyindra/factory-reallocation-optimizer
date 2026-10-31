@@ -1,0 +1,71 @@
+Factory ID,Product ID,Product Name,Country/Region,Region,Allocated Units
+FAC-001,CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Gulf,1082
+FAC-001,CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Pacific,504
+FAC-001,CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Interior,22
+FAC-001,CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Atlantic,2137
+FAC-001,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Atlantic,1794
+FAC-001,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Gulf,1088
+FAC-001,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Interior,1694
+FAC-001,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,United States,Pacific,2088
+FAC-001,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,Canada,Atlantic,125
+FAC-001,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Pacific,2413
+FAC-001,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Pacific,2579
+FAC-001,OTH-GUM-21000,Wonka Gum,United States,Atlantic,169
+FAC-001,OTH-KAZ-38000,Kazookles,United States,Gulf,78
+FAC-001,SUG-EVE-47000,Everlasting Gobstopper,United States,Interior,3
+FAC-001,SUG-FUN-75000,Fun Dip,United States,Gulf,1
+FAC-002,CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Atlantic,72
+FAC-002,CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Pacific,2659
+FAC-002,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,Canada,Atlantic,63
+FAC-002,CHO-NUT-13000,Wonka Bar - Nutty Crunch Surprise,Canada,Pacific,28
+FAC-002,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,Canada,Pacific,55
+FAC-002,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Atlantic,2224
+FAC-002,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Interior,44
+FAC-002,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Interior,13
+FAC-002,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Pacific,16
+FAC-002,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Atlantic,2009
+FAC-002,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Gulf,1223
+FAC-002,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,United States,Interior,1679
+FAC-002,OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Atlantic,9
+FAC-002,OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Gulf,4
+FAC-002,OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Interior,5
+FAC-002,OTH-GUM-21000,Wonka Gum,United States,Gulf,120
+FAC-002,OTH-GUM-21000,Wonka Gum,United States,Pacific,77
+FAC-002,OTH-KAZ-38000,Kazookles,United States,Atlantic,149
+FAC-002,OTH-KAZ-38000,Kazookles,United States,Interior,39
+FAC-002,OTH-KAZ-38000,Kazookles,United States,Pacific,105
+FAC-002,OTH-LIC-15000,Lickable Wallpaper,Canada,Atlantic,5
+FAC-002,OTH-LIC-15000,Lickable Wallpaper,Canada,Pacific,9
+FAC-002,OTH-LIC-15000,Lickable Wallpaper,United States,Atlantic,134
+FAC-002,OTH-LIC-15000,Lickable Wallpaper,United States,Interior,71
+FAC-002,OTH-LIC-15000,Lickable Wallpaper,United States,Pacific,137
+FAC-002,SUG-EVE-47000,Everlasting Gobstopper,United States,Gulf,4
+FAC-002,SUG-EVE-47000,Everlasting Gobstopper,United States,Pacific,6
+FAC-002,SUG-FUN-75000,Fun Dip,United States,Interior,3
+FAC-002,SUG-HAI-55000,Hair Toffee,United States,Atlantic,5
+FAC-002,SUG-HAI-55000,Hair Toffee,United States,Gulf,2
+FAC-002,SUG-HAI-55000,Hair Toffee,United States,Pacific,10
+FAC-002,SUG-LAF-25000,Laffy Taffy,United States,Atlantic,14
+FAC-002,SUG-LAF-25000,Laffy Taffy,United States,Gulf,11
+FAC-002,SUG-LAF-25000,Laffy Taffy,United States,Interior,1
+FAC-002,SUG-LAF-25000,Laffy Taffy,United States,Pacific,1
+FAC-002,SUG-NER-92000,Nerds,United States,Atlantic,10
+FAC-002,SUG-SWE-91000,SweeTARTS,United States,Atlantic,24
+FAC-002,SUG-SWE-91000,SweeTARTS,United States,Pacific,4
+FAC-003,CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Interior,5
+FAC-003,CHO-FUD-51000,Wonka Bar - Fudge Mallows,Canada,Pacific,45
+FAC-003,CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Atlantic,1936
+FAC-003,CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Interior,1590
+FAC-003,CHO-FUD-51000,Wonka Bar - Fudge Mallows,United States,Pacific,1680
+FAC-003,CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Atlantic,199
+FAC-003,CHO-MIL-31000,Wonka Bar - Milk Chocolate,Canada,Pacific,47
+FAC-003,CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Gulf,1356
+FAC-003,CHO-MIL-31000,Wonka Bar - Milk Chocolate,United States,Interior,1847
+FAC-003,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Gulf,1203
+FAC-003,CHO-SCR-58000,Wonka Bar -Scrumdiddlyumptious,United States,Interior,1679
+FAC-003,CHO-TRI-54000,Wonka Bar - Triple Dazzle Caramel,Canada,Atlantic,77
+FAC-003,OTH-FIZ-56000,Fizzy Lifting Drinks,United States,Pacific,3
+FAC-003,OTH-GUM-21000,Wonka Gum,United States,Interior,112
+FAC-003,OTH-LIC-15000,Lickable Wallpaper,United States,Gulf,37
+FAC-003,SUG-FUN-75000,Fun Dip,United States,Atlantic,4
+FAC-003,SUG-SWE-91000,SweeTARTS,United States,Interior,13

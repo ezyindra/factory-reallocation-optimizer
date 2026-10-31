@@ -1,0 +1,5 @@
+Scenario,Active Factories,Total Demand,Available Capacity,Spare Capacity,Utilization (%),Solver Status,Feasible
+Baseline,3,38654,42000,3346,92.03,OPTIMAL,True
+Factory North Shutdown,2,38654,26000,-12654,148.67,INSUFFICIENT CAPACITY,False
+Central Capacity -20%,3,38654,39200,546,98.61,OPTIMAL,True
+All Factories +10%,3,38654,46200,7546,83.67,OPTIMAL,True

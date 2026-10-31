@@ -1,0 +1,4 @@
+Factory ID,Factory Name,Capacity,Allocated Units,Spare Capacity,Utilization (%)
+FAC-001,Factory North,16000,14725,1275,92.03
+FAC-002,Factory Central,14000,12885,1115,92.04
+FAC-003,Factory South,12000,11044,956,92.03
