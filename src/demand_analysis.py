@@ -2,14 +2,11 @@
 import pandas as pd
 
 from src.data_loader import load_dataset
-from src.preprocessing import (
-    prepare_dataset,
-    create_product_region_demand,
-)
+from src.preprocessing import prepare_dataset
 
 
-def analyze_product_demand(data):
-    """Rank products by actual sales volume and profitability."""
+def analyze_product_demand(data: pd.DataFrame) -> pd.DataFrame:
+    """Summarize demand and profitability for each product."""
 
     products = (
         data.groupby(
@@ -21,7 +18,9 @@ def analyze_product_demand(data):
                 "Total Units": ("Units", "sum"),
                 "Total Sales": ("Sales", "sum"),
                 "Total Profit": ("Gross Profit", "sum"),
+                "Total Cost": ("Cost", "sum"),
                 "Order Count": ("Order ID", "nunique"),
+                "Customer Count": ("Customer ID", "nunique"),
             }
         )
     )
@@ -38,8 +37,8 @@ def analyze_product_demand(data):
     )
 
 
-def analyze_regional_demand(data):
-    """Measure demand and profitability across regions."""
+def analyze_regional_demand(data: pd.DataFrame) -> pd.DataFrame:
+    """Summarize business performance by country and region."""
 
     regions = (
         data.groupby(
@@ -52,8 +51,8 @@ def analyze_regional_demand(data):
                 "Total Sales": ("Sales", "sum"),
                 "Total Profit": ("Gross Profit", "sum"),
                 "Total Cost": ("Cost", "sum"),
-                "Customer Count": ("Customer ID", "nunique"),
                 "Order Count": ("Order ID", "nunique"),
+                "Customer Count": ("Customer ID", "nunique"),
             }
         )
     )
@@ -70,17 +69,63 @@ def analyze_regional_demand(data):
     )
 
 
-def analyze_product_region_demand(data):
-    """Create a product-by-region unit demand matrix."""
+def create_demand_matrix(data: pd.DataFrame) -> pd.DataFrame:
+    """Show unit demand for each product across destination regions."""
 
-    return pd.pivot_table(
+    matrix = pd.pivot_table(
         data,
         index="Product Name",
         columns="Region",
         values="Units",
         aggfunc="sum",
-        fill_value=0,
+        fill_value=0
     )
+
+    return matrix
+
+
+def validate_aggregations(
+    data: pd.DataFrame,
+    products: pd.DataFrame,
+    regions: pd.DataFrame
+) -> None:
+    """Check that aggregation preserves the original totals."""
+
+    checks = {
+        "Total units": (
+            data["Units"].sum(),
+            products["Total Units"].sum()
+        ),
+        "Total sales": (
+            data["Sales"].sum(),
+            products["Total Sales"].sum()
+        ),
+        "Total gross profit": (
+            data["Gross Profit"].sum(),
+            products["Total Profit"].sum()
+        ),
+        "Regional sales": (
+            data["Sales"].sum(),
+            regions["Total Sales"].sum()
+        ),
+    }
+
+    print("\nAGGREGATION VALIDATION")
+    print("-" * 55)
+
+    for name, (original, aggregated) in checks.items():
+        passed = abs(original - aggregated) < 0.01
+
+        print(
+            f"{name:<25} "
+            f"{'PASSED' if passed else 'FAILED'} "
+            f"({aggregated:,.2f})"
+        )
+
+        if not passed:
+            raise ValueError(
+                f"Aggregation mismatch: {name}"
+            )
 
 
 def main():
@@ -89,25 +134,31 @@ def main():
 
     products = analyze_product_demand(data)
     regions = analyze_regional_demand(data)
-    product_regions = analyze_product_region_demand(data)
+    matrix = create_demand_matrix(data)
 
-    print("\n" + "=" * 60)
-    print("PRODUCT DEMAND ANALYSIS")
-    print("=" * 60)
+    validate_aggregations(data, products, regions)
 
-    print(products.to_string(index=False))
+    print("\n" + "=" * 65)
+    print("PRODUCT DEMAND — TOP 10")
+    print("=" * 65)
 
-    print("\n" + "=" * 60)
-    print("REGIONAL DEMAND ANALYSIS")
-    print("=" * 60)
+    print(
+        products.head(10).to_string(index=False)
+    )
 
-    print(regions.to_string(index=False))
+    print("\n" + "=" * 65)
+    print("REGIONAL PERFORMANCE")
+    print("=" * 65)
 
-    print("\n" + "=" * 60)
+    print(
+        regions.to_string(index=False)
+    )
+
+    print("\n" + "=" * 65)
     print("PRODUCT-REGION DEMAND MATRIX")
-    print("=" * 60)
+    print("=" * 65)
 
-    print(product_regions.to_string())
+    print(matrix.to_string())
 
     products.to_csv(
         "data/processed/product_demand.csv",
@@ -119,11 +170,12 @@ def main():
         index=False
     )
 
-    product_regions.to_csv(
+    matrix.to_csv(
         "data/processed/product_region_matrix.csv"
     )
 
-    print("\nAnalysis files saved successfully.")
+    print("\nAnalysis completed.")
+    print("Three output files saved in data/processed/")
 
 
 if __name__ == "__main__":
